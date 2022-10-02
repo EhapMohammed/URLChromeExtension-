@@ -1,0 +1,73 @@
+body {
+    background: #1F2937;
+    color: white;
+}
+.container
+{
+
+    padding: 15px;
+    min-width: 400px;
+}
+input
+{
+    box-sizing: border-box;
+    padding: 5px 10px;
+    width: 100%;
+    margin: 5px 0px 10px;
+}
+.buttons
+{
+    margin-bottom: 10px;
+}
+button
+{
+    background-color: green;
+    border-radius: 3%;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover
+{
+    /* transition: ease-out 0.4s; */
+    border: 1px solid rgb(241, 217, 217);
+    padding: 11px;
+}
+#urlList
+{
+    list-style-type: none;
+    display: block;
+}
+#urlList .list
+{
+    padding: 10px 0px;
+}
+li 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li a 
+{
+    text-decoration: none;
+    color: chartreuse;
+}
+#erorr ,#nameErorr
+{
+    background-color: rgb(207, 100, 100);
+    padding: 5px;
+    margin: 5px;
+    display: none;
+}
+.savedCorrectly
+{
+    text-align: center;
+    background-color: rgb(66, 83, 66);
+    padding: 10px;
+    display: none;
+    width: max-content;
+    margin: auto;
+}
